@@ -30,3 +30,12 @@ p {
   text-align: justify;
   padding: 10px;
 }
+
+img {
+  padding: 15px;
+  
+}
+
+br {
+  line-height: 10px;
+}
