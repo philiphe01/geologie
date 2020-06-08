@@ -26,16 +26,36 @@ hr {
   width: 50%;
 }
 
+.left {
+  float: left;
+  padding: 0 10px 0 0;
+}
+
+.right {
+  float: right;
+}
+
 p {
   text-align: justify;
   padding: 10px;
 }
-
-img {
-  padding: 15px;
+figure {
+  display: flex;
+  flex-flow: column;
+  padding: 5px;
   
 }
+img{
+  width: 100%;
+}
 
-br {
-  line-height: 10px;
+figcaption {
+  font: italic smaller sans-serif;
+  padding: 0px;
+  text-align: center;
+}
+
+img {
+  padding: 10px;
+  
 }
